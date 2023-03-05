@@ -1,6 +1,7 @@
 # CalendarVanDusen
+Python repo for calibration constants for resistive temperature measurment typically platina elements with R0 of 100Ω or 1000Ω
 
-From Greek (alpha, delta and beta) to Latin (A,B,C) constants
+From Latin (A,B,C) to Greek (alpha, delta and beta) constants convertion and overview of many standard CVD figures is there is not a unique calibration performed on the temperatur meters.
 
 where beta and C are used for temperatures under 0°C
 
