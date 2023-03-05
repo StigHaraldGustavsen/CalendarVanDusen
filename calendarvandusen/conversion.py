@@ -28,11 +28,11 @@ if __name__ == '__main__':
     
     #getting the greek coefisient
     abg = CVD_to_greek(A,B)
-    
+
     #Calculate with the greek wierd polynomial.
     t_abg = R0+R0*abg['alpha']*(t-abg['delta']*((t/100)-1)*(t/100)-abg['beta']*((t/100)-1)*((t/100)**3))
     
-    #Calculating the sum of the squared errors of 50 points from -10 to 50°C
+    #Calculating the sum of the squared errors of points from -10°C to 50°C
     sse = 0 
     for i in range(len(t)):
         sse += (poly[i]-t_abg[i])**2
