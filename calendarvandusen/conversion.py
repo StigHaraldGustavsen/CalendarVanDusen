@@ -18,6 +18,9 @@ def CVD_to_latin(alpha, delta, beta=0.0):
     res = {'A':A,'B':B, 'C':C} 
     return res 
 
+
+
+#Move this out to tests later
 if __name__ == '__main__':
     print('A = 3.9083e-3, B:-5.775e-7 C:-4.183e-12')
     print(CVD_to_greek(3.9083e-3,-5.775e-7,-4.183e-12))
